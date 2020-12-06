@@ -1,0 +1,12 @@
+watch: https://www.youtube.com/watch?v=3LZOL65sxhU&feature=youtu.be
+
+mkdir webpack-demo
+cd webpack-demo
+npm init -y
+npm install webpack webpack-cli --save-dev
+
+npm run build
+npm i --save-dev html-webpack-plugin
+npm install webpack-dev-server --save-dev
+
+npm run start
